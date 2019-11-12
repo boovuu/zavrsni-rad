@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style-position: inside;
+}
+body{
+    background-color: rgb(218,224,230);
+    position: relative;
+    min-height: 100vh;
+}
+header{
+    background-image: url('../Zavrsni rad/slike/bgdovstine.png');
+    min-height: 35vh;
+    position: relative;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    min-height: 200px;
+}
+.hh1{
+    color: white;
+    padding-left: 8%;
+    padding-top: 2%;
+}
+.hh1 img{ 
+    border-radius: 50%;
+    height: 2em;
+}
+nav{
+    padding-left: 8%;
+    background: rgba(0,0,0,0.6);
+    position: absolute;
+    bottom: 0;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding-right: 20px;
+    font-size: 2em;
+}
+main{
+    font-family: Arial, Helvetica, sans-serif
+}
+.container{
+    margin: auto;
+    width: 80%;
+    padding-top: 15px;
+    
+}
+.container article{
+    background-color: white;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    border-radius: 13px;
+    margin-bottom: 10px;
+    
+}
+.flow{
+    width: 60%;
+    display: inline-block;
+    margin-right: 3%;
+    margin-bottom: 30px;
+}
+.flow article{
+    padding: 10px 0 10px 40px;
+}
+.kompas{
+    width: 35%;
+    display: inline-block;
+    vertical-align: top;
+}
+.art1{
+    padding: 10px 0 10px 40px;
+}
+.flow h2{
+    padding-bottom: 5px;
+    font-size: 25px;
+}
+.art2{
+    padding: 10px 0 10px 40px
+}
+.artlist{
+    margin-bottom: 10px;
+}
+.artlist p{
+    background-color: rgb(184,0,31);
+    color: white;
+    padding: 10px;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+    font-size: 12px;
+}
+.artlist ul li{
+    list-style-type: none;
+    padding: 10px 0 10px 10px;
+    border-top: solid gray 1px;
+}
+.artad{
+    padding:5px 5px 5px 5px;
+}
+.artad img{
+    width: 100%;
+}
+footer{
+    background-color: rgba(0,0,0,0.6);
+    text-align: center;
+    text-decoration: none;
+    height: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+footer a{
+    text-decoration: none;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
