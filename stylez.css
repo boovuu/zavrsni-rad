@@ -76,6 +76,7 @@ main{
 .slika{
     max-width: 100%;
     height: auto;
+    object-fit: contain;
 }
 .art1{
     padding: 10px 0 10px 40px;
