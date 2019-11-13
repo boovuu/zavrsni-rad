@@ -10,7 +10,7 @@ body{
     min-height: 100vh;
 }
 header{
-    background-image: url('../Zavrsni rad/slike/bgdovstine.png');
+    background-image: url('slike/bgdovstine.png');
     min-height: 35vh;
     position: relative;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
